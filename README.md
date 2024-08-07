@@ -1,7 +1,7 @@
 # Verse-AI
 
 <div align="center">
-	<img src="images/lyrical.png" height="300">
+	<img src="images/logo.png" height="300">
 </div>
 
 <br>
