@@ -8,9 +8,9 @@
 
 <div align="center">
    <img src="images/made-with-python.svg">
-   <img src="images/built-with-love.svg">
+   <!-- <img src="images/built-with-love.svg"> -->
    <br>
-   <img src="images/WIP.svg"><img src="images/contribute.svg"><img src="images/license.svg">
+   <img src="images/WIP.svg"><img src="images/contribute.svg">
 </div>
 
 ## 📖 Overview
