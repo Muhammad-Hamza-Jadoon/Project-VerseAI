@@ -1,4 +1,4 @@
-# Verse-AI
+# 🎭 Verse-AI
 
 <div align="center">
 	<img src="images/logo.png" height="300">
@@ -14,33 +14,14 @@
 </div>
 
 
-
-
-
-
-# 🎭 Poetic
-
-<div align="center">
-	<img src="images/logo.png" height="300">
-</div>
-
-<br>
-
-<div align="center">
-   <img src="images/made-with-python.svg">
-   <img src="images/built-with-love.svg">
-   <br>
-   <img src="images/WIP.svg"><img src="images/contribute.svg"><img src="images/license.svg">
-</div>
-
 ## 📖 Overview
 
-Poetic is an end-to-end Poetry Generation Model that harnesses the power of transformer-based language models and natural language processing to learn the patterns, structure, and vocabulary of poems. By fine-tuning a pre-trained model (FLAN-T5) on a diverse collection of poems from different styles and topics, the model can capture the nuances and characteristics of various poetic forms and intelligently generate poems that adhere to specific themes or topics.
+Verse-AI is an end-to-end Poetry Generation Model that harnesses the power of transformer-based language models and natural language processing to learn the patterns, structure, and vocabulary of poems. By fine-tuning a pre-trained model (FLAN-T5) on a diverse collection of poems from different styles and topics, the model can capture the nuances and characteristics of various poetic forms and intelligently generate poems that adhere to specific themes or topics.
 
 ## ➕ Features
 
 - **Data Preparation**: The model uses a custom `PoemDataset` class to prepare the input data, which includes poem topics and the corresponding poems. This dataset class handles tokenization and encoding of the input and target texts.
-- **Model Architecture**: Poetic utilizes the FLAN-T5 model, a powerful sequence-to-sequence transformer model, as its base architecture. The model is fine-tuned on the poetry dataset to adapt it for poem generation.
+- **Model Architecture**: Verse-AI utilizes the FLAN-T5 model, a powerful sequence-to-sequence transformer model, as its base architecture. The model is fine-tuned on the poetry dataset to adapt it for poem generation.
 - **Training Process**: The model is trained using PyTorch, with support for GPU acceleration when available. It employs the AdamW optimizer and uses a customizable training loop that allows for easy monitoring of the training progress.
 - **Evaluation Metrics**: During training, the model calculates and reports various metrics to assess its performance:
   - Perplexity: Measures how well the model predicts the sample.
@@ -84,7 +65,7 @@ Poetic is an end-to-end Poetry Generation Model that harnesses the power of tran
 
 ## 🖲️ Installation
 
-To set up Poetic, follow the instructions below:
+To set up Verse-AI, follow the instructions below:
 
 1. Clone the repository:
 
@@ -195,7 +176,7 @@ The Poetry Generation Model can be used as follows:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-With Poetic, you can embark on a creative journey of generating unique poems that capture the essence of different themes and styles. Let your imagination flow and dive into the world of AI-assisted poetry creation!
+With Verse-AI, you can embark on a creative journey of generating unique poems that capture the essence of different themes and styles. Let your imagination flow and dive into the world of AI-assisted poetry creation!
 
 Happy poem generation! 📝✨
 
